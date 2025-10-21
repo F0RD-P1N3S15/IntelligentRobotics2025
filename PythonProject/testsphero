@@ -1,0 +1,17 @@
+def Forwards():
+    print("Forwards")
+def TurnLeft():
+    print("TurnLeft")
+def TurnRight():
+    print("TurnRight")
+
+def Lap():
+    print("Lap")
+    Forwards()
+    TurnLeft()
+    TurnRight()
+
+try:
+    Lap()
+finally:
+    print("Stop moving")
